@@ -12,7 +12,7 @@ const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
     // origin: "http://localhost:3000",
-    origin: "https://bandstandv1.herokuapp.com/chatroom",
+    origin: PORT,
     methods: ["GET", "POST"],
     credentials: true,
   },
