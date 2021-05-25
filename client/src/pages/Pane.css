@@ -1,0 +1,15 @@
+.some-custom-class {
+    background-color: hsl(271, 50%, 77%);
+    text-align: center;
+    color:rgb(11, 19, 18);
+    font-style: bold;
+   
+
+}
+button {
+    background-color: rgb(226, 238, 240);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-shadow: 2px 4px black;
+    border-color: rgb(63, 60, 60);
+}

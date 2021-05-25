@@ -1,0 +1,19 @@
+h3 {
+  float: left;
+  text-align: left;
+}
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  margin: 5px;
+  padding: 0;
+}
+
+.user-box {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}

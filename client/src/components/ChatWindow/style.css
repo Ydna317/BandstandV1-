@@ -1,0 +1,11 @@
+.form1 {
+    padding-top: 100%;
+    border: 2px ;
+
+    width: 100%;
+}
+
+.btn2{
+    background-color: red ;
+    box-shadow:none;
+}
