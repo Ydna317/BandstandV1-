@@ -11,8 +11,7 @@ app.use(cors());
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    // origin: "http://localhost:3000",
-    origin: PORT,
+    origin: "bandstandv1.herokuapp.com",
     methods: ["GET", "POST"],
     credentials: true,
   },
