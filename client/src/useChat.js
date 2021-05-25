@@ -12,7 +12,7 @@ const STOP_TYPING_MESSAGE_EVENT = "STOP_TYPING_MESSAGE_EVENT";
 // const SOCKET_SERVER_URL = "http://localhost:4000";
 // const SOCKET_SERVER_URL = "http://bandstandv1.herokuapp.com/socket.io/?EIO=4&transport=websocket";
 const SOCKET_SERVER_URL = process.env.PORT || "https://bandstandv1.herokuapp.com";
-process.env.PORT
+// process.env.PORT
 
 
 const useChat = (roomId) => {
