@@ -9,14 +9,9 @@ const STOP_TYPING_MESSAGE_EVENT = "STOP_TYPING_MESSAGE_EVENT";
 
 
 // LOOK HERE.
-const SOCKET_SERVER_URL = socketIo(server, {
-  cors: {
-    origin: "bandstandv1.herokuapp.com",
-    methods: ["GET", "POST"],
-    credentials: true,
-  },
-});
+// const SOCKET_SERVER_URL = "http://localhost:4000";
 // const SOCKET_SERVER_URL = "http://bandstandv1.herokuapp.com/socket.io/?EIO=4&transport=websocket";
+const SOCKET_SERVER_URL = "https://bandstandv1.herokuapp.com/chatroom";
 
 
 const useChat = (roomId) => {
