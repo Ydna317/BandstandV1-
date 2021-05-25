@@ -6,7 +6,7 @@ const USER_LEAVE_CHAT_EVENT = "USER_LEAVE_CHAT_EVENT";
 const NEW_CHAT_MESSAGE_EVENT = "NEW_CHAT_MESSAGE_EVENT";
 const START_TYPING_MESSAGE_EVENT = "START_TYPING_MESSAGE_EVENT";
 const STOP_TYPING_MESSAGE_EVENT = "STOP_TYPING_MESSAGE_EVENT";
-const SOCKET_SERVER_URL = "http://localhost:4000";
+const SOCKET_SERVER_URL = "http://localhost:4000" || "https://bandstandv1.herokuapp.com/chatroom#";
 const useChat = (roomId) => {
   const [messages, setMessages] = useState([]);
   const [users, setUsers] = useState([]);
