@@ -4,7 +4,7 @@ import UserAvatar from "../../UserAvatar/UserAvatar";
 import "./Users.css";
 
 const Users = ({ users }) => {
-  return users.length > 0 ? (
+  return users.length > 1 ? (
     <div>
       <h3>Users in this room:</h3>
       <ul className="user-list">
