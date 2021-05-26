@@ -4,7 +4,7 @@ import { Row, Col } from "react-bootstrap";
 // import Card from "../components/Card";
 //import Container from "../components/Container";
 //import Row from "../components/Row";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 // import Col from "../components/Col";
 //import List from "../components/List";
 //import Card from 'react-bootstrap/Card';
@@ -23,10 +23,8 @@ function Chatroom() {
     return (
 
         <div style={{width: '100%', height: '90%'}}>
-        
-            <Navbar />       
             <br />
-            <br /> 
+            <br />
             <Row className="main-row row justify-content-center">
                
                 <Col md={9}>

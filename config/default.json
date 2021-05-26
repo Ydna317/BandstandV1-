@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://Damon1v1:Marvelcomics1@cluster0.sv33s.mongodb.net/users?retryWrites=true&w=majority",
+    "jwtSecret": "secretofmytoken"
+}
