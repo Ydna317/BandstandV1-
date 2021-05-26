@@ -125,14 +125,16 @@ const server = http.createServer(app);
 // set up websocket and cors permission on the server
 const io = socketIo(server, {
   cors: {
-    origin: "http://localhost:3000",
+    // origin: "http://localhost:3000",
+    origin: "http://bandstandv1.herokuapp.com",
     methods: ["GET", "POST"],
     credentials: true,
   },
 });
 
 // back-end port number
-const PORT = process.env.PORT || 4000;
+// const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT;
 
 // establish socket.io controls
 const USER_JOIN_CHAT_EVENT = "USER_JOIN_CHAT_EVENT";
