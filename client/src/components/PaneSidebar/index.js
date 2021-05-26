@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import SlidingPane from "react-sliding-pane";
 import "react-sliding-pane/dist/react-sliding-pane.css";
 import Image from 'react-bootstrap/Image';
+import Avatar from './pkmtrainer.png'
 import { Link } from "react-router-dom";
 //import "./styles.css";
 
@@ -32,7 +33,7 @@ const  PaneSidebar = () => {
                 onRequestClose={() => setState({ isPaneOpenLeft: false })}
                 >
                 <div>
-                    <Image className="Image" src="user.jfif" width={150} height={150} roundedCircle/>
+                    <Image className="Image" src={Avatar} width={150} height={150} roundedCircle/>
 
                     <div className="name"><strong>Name of User</strong></div><br />
                     <div>

@@ -7,7 +7,7 @@
 
 .Col2 {
     border: 1px solid black;
-    background-color: white;
+    background-color: aliceblue;
 }
 .Row1 {
     padding-bottom: 0%;
@@ -23,7 +23,7 @@ body {
 }
 
 .name {
-    color: white;
+    color: aliceblue;
     text-align: center;
 }
 

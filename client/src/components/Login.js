@@ -45,6 +45,8 @@ const Login = props => {
 
   return (
     <div className='form-container'>
+      <center>
+        <div className='logintext'><b>Login</b></div>
       <form onSubmit={onSubmit}>
         <div className='form-group'>
           <label htmlFor='username'>Username</label>
@@ -69,7 +71,7 @@ const Login = props => {
           />
         </div>
         <div>
-          <a href="/signup">Create an account.</a>
+          <a className= "credentials" href="/signup">Create an account.</a>
         </div>
         <input
           type='submit'
@@ -77,6 +79,7 @@ const Login = props => {
           className='btn btn-primary btn-block'
         />
       </form>
+      </center>
     </div>
   );
 };

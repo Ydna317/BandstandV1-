@@ -1,15 +1,20 @@
 .some-custom-class {
-    background-color: hsl(271, 50%, 77%);
-    text-align: center;
-    color:rgb(11, 19, 18);
-    font-style: bold;
-   
-
+  background: -webkit-linear-gradient(
+    to right,
+    hsl(239, 61%, 63%),
+    black(239, 61%, 63%),
+    black(4, 29, 4),
+    hsl(239, 61%, 63%),
+  );
+  background: linear-gradient(to right, hsl(239, 61%, 63%), black, hsl(239, 61%, 63%));
+  text-align: center;
+  color: rgb(11, 19, 18);
+  font-style: bold;
 }
 button {
-    background-color: rgb(226, 238, 240);
-    padding-top: 12px;
-    padding-bottom: 12px;
-    box-shadow: 2px 4px black;
-    border-color: rgb(63, 60, 60);
+  background-color: rgb(226, 238, 240);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  box-shadow: 2px 4px black;
+  border-color: rgb(63, 60, 60);
 }

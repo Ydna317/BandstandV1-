@@ -5,10 +5,12 @@
 
 .my-message {
   justify-content: flex-end;
+  margin-right: 10%;
 }
 
 .received-message {
   justify-content: flex-start;
+  margin-left: 5%;
 }
 
 .message-body-container {
@@ -23,19 +25,21 @@
 }
 
 .message-user-name {
-  font-size: 0.75rem;
+  font-size: 25px;
   padding-left: 12px;
-  color: rgb(138, 141, 145);
-}
-
-.my-message .message-body {
-  background-color: rgb(0, 132, 255);
   color: white;
 }
 
+.my-message .message-body {
+  background-color: rgb(69, 164, 253);
+  color: white;
+  font-size: 25px;
+}
+
 .received-message .message-body {
-  background-color: rgb(228, 230, 235);
+  background-color: rgb(203, 208, 219);
   color: rgb(5, 5, 5);
+  font-size: 25px;
 }
 
 .message-avatar-container {
@@ -46,7 +50,6 @@
 .message-avatar {
   vertical-align: middle;
   border-radius: 50%;
-
   height: 75px;
   width: 75px;
 }
