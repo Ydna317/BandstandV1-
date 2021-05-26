@@ -43,7 +43,7 @@ const ChatRoom = (props) => {
   return (
     <div className="chat-room-container">
       <div className="chat-room-top-bar">
-        <h1 className="room-name">Room: {roomId}</h1>
+        <h1 className="room-name">{roomId}</h1>
         {user && <UserAvatar user={user}></UserAvatar>}
       </div>
       <Users users={users}></Users>

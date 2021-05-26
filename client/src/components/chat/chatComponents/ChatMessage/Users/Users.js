@@ -6,7 +6,7 @@ import "./Users.css";
 const Users = ({ users }) => {
   return users.length > 0 ? (
     <div>
-      <h3>Users in this room:</h3>
+      <h3></h3>
       <ul className="user-list">
         {users.map((user, index) => (
           <li key={index} className="user-box">
@@ -17,7 +17,7 @@ const Users = ({ users }) => {
       </ul>
     </div>
   ) : (
-    <div>Chatroom is currently empty.</div>
+    <div></div>
   );
 };
 
